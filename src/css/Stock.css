@@ -1,0 +1,204 @@
+.s-container {
+  margin-top: 10px;
+  width: 100%;
+  border: 0px solid black;
+  border-radius: 5px;
+}
+
+.s-box-header {
+  display: flex;
+  background-color: #ff9b00;
+  height: 25px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.s-box-header * {
+  display: flex;
+  align-items: center;
+}
+
+.s-header-code {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-name {
+  width: 20%;
+  padding-left: 5px;
+}
+
+.s-header-stock {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-compras {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-ventas {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-intercambios {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-desperdicios {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-insumos {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-actual {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-ajuste {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-header-mix {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  height: 35px;
+  border-bottom: 1px solid rgb(120, 120, 120);
+}
+
+.s-product .s-bor {
+  padding: 0px 10px;
+}
+
+.s-product * {
+  display: flex;
+  align-items: center;
+}
+
+.s-bor {
+  border-right: 1px solid rgb(215,215,215);
+}
+
+.s-product-code {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-name {
+  width: 20%;
+  padding-left: 5px;
+}
+
+.s-product-stock {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-compras {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-ventas {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-mix {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-intercambios {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-desperdicios {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-actual {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-product-ajuste {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.s-ajuste-btn {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  font-size: 12px;
+}
+
+.s-ajuste-btn:hover {
+  color: red;
+}
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  border-bottom: 1px solid gray;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}

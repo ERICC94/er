@@ -1,0 +1,29 @@
+.c.total-container {
+    display: flex;
+    align-items: center;
+}
+
+.c.total {
+    width: 200px;
+    height: 30px;
+}
+
+.c.observations {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.c.extra-containers {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.c.total-menu {
+    height: 60px;
+}
+
+.c.textarea-observaciones{
+    margin-left: 10px;
+}

@@ -1,0 +1,179 @@
+.mix-containers {
+  display: flex;
+  height: 70%;
+  width: 100%;
+}
+
+.confirm-container {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  border-right: 1px solid black;
+}
+
+.right-container {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.select-product-title {
+  display: flex;
+  justify-content: center;
+}
+
+.select-mix-title {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.select-product {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-cantidad-input {
+  margin: 10px;
+  margin-top: 12px;
+  width: 100px;
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid darkgray;
+  text-align: center;
+}
+
+.m-table-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-col {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FF9B00;
+  border-right: 1px solid rgb(255, 255, 255);
+  padding: 7px;
+  color: white;
+}
+
+.m-col-remove {
+  width: 8%;
+}
+
+.m-col-cod {
+  width: 15%;
+}
+
+.m-col-product {
+  width: 26%;
+}
+
+.m-col-cant {
+  width: 15%;
+}
+
+.m-col-precio {
+  width: 18%;
+}
+
+.m-col-total {
+  width: 18%;
+}
+
+.m-table-header, .m-table-body {
+  margin: 0px 10px 0px 10px;
+}
+
+
+.m-product-list .m-products {
+	display: block;
+}
+
+.m-product {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  padding: 2px;
+  border-bottom: 1px solid gray;
+	background-color: rgb(245, 245, 245);
+}
+
+.m-product-remove {
+  width: 8%;
+}
+
+.m-product-code {
+  width: 15%;
+}
+
+.m-product-name {
+	width: 26%;
+}
+
+.m-product-cant {
+	width: 15%;
+}
+
+.m-product-price {
+	width: 18%;
+}
+
+.m-product-total {
+	width: 18%;
+}
+
+.m-product-remove {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.m-product-remove:hover {
+  color: red;
+}
+
+.m-mix-total {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.m-total-title {
+  background-color: #FF9B00;
+  border-right: 1px solid white;
+  font-size: 18px;
+  color: white;
+  padding: 2px 10px 0px 10px;
+}
+
+
+
+.m-total-number {
+  border: 1px solid #FF9B00;
+  font-size: 20px;
+  width: 18%;
+  margin: 0px 10px 0px 10px;
+}
